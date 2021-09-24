@@ -180,7 +180,7 @@
 
 
 .horiz-line-1-b, .horiz-line-2-b, .horiz-line-3-b, .horiz-line-4-b, .horiz-line-5-b  {
-  stroke: red;
+  stroke: #e1523d;
 }
 
 .horiz-line-1-b, .horiz-line-2-b, .horiz-line-3-b, .horiz-line-4-b, .horiz-line-5-b   {
@@ -203,39 +203,13 @@
 
 @keyframes circleIn {
   to {
-    fill: red;
-    filter: drop-shadow(0px 0px 5px red);
+    fill: #e1523d;
+    filter: drop-shadow(0px 0px 5px #e1523d);
 }
 }
-/* 
-@keyframes circleOut1 {
-  to {
- fill: url(#radial-gradient-7);
-}
-}
-@keyframes circleOut2 {
-  to {
-          fill: url(#radial-gradient-9);
-}
-}
-@keyframes circleOut3 {
-  to {
-   fill: url(#radial-gradient-25);
-}
-}
-@keyframes circleOut4 {
-  to {
-   fill: url(#radial-gradient-11);
-}
-}
-@keyframes circleOut5 {
-  to {
-    fill: url(#radial-gradient-13);
-}
-} */
 </style>
 <div class='svg-wrapper'>
-  <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1075.92 773.27">
+  <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 975 600">
     <defs>
     
       <clipPath id="clip-path" transform="translate(14.72 190.12)">
@@ -292,11 +266,6 @@
       <radialGradient id="radial-gradient-25" cx="659.37" cy="288.41" r="3.59" xlink:href="#radial-gradient-7" />
     </defs>
     <g class="cls-2">
-      <circle id="glow-1" class="cls-3" cx="145.8" cy="423.15" r="145.8" />
-      <circle id="glow-2" class="cls-4" cx="306.45" cy="335.67" r="145.8" />
-      <circle id="glow-3" class="cls-5" cx="471.87" cy="268.86" r="145.8" />
-      <circle id="glow-4" class="cls-6" cx="800.63" cy="497.98" r="275.29" />
-      <circle id="glow-5" class="cls-7" cx="772.59" cy="275.29" r="275.29" />
       <g id="horiz-line-1-group">
         <line id="horiz-line-1" class="cls-8" x1="141.03" y1="363.76" x2="319.77" y2="363.76" />
           <line class="cls-8 horiz-line-1-b" x1="141.03" y1="363.76" x2="319.77" y2="363.76" />
@@ -882,7 +851,7 @@
 <script>
 
 let $white = '#ffffff'
-let $hoverColor = 'red'
+let $hoverColor = '#e1523d'
 let $baseColor = "#ff8d00"
 let $animateOut = "dashOut 0.5s forwards"
 let $animateIn = "dashIn 1s forwards" 
@@ -1208,5 +1177,6 @@ $(document).ready(function () {
      $("#horiz-line-5-circle").css({ animation: $circleOut});
   });
 });
+
 
 </script>
